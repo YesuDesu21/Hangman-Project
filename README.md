@@ -3,7 +3,7 @@ Hello this is our hangman game project for our finals in Computer Programming 3.
 The parts I worked on:
 
 🟦ADMIN(JAVA)
-1.Game HistoryMVC INCLUDING GUI
+1. Game HistoryMVC INCLUDING GUI
 2. Time ConfigurationMVC
 
 🟡PYTHON
