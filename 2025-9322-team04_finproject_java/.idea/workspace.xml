@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3cc41d1c-ff36-479d-929e-6d464edad10a" name="Changes" comment="Cleaned, refactored, debugged the java project" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;2241851&quot;,
+      &quot;fullname&quot;: &quot;FEIL JASPER DORIA&quot;
+    }
+  }
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;https://gitlab.com/2241851/2025-9322-team04_finproject_java.git&quot;,
+    &quot;second&quot;: &quot;d4b92d41-9470-4dbc-9e66-1bfe58100af6&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2wEZ6jJcSYBkSNC1IaL1C2GrXRv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AdminCorbaManager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdminJDBC.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdminLoginController (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdminLoginController (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdminLoginController (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdminLoginController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdminServiceDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChooseGameView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client_Java.admin.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DashboardView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GameManagerServiceDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GameServiceDAO.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManagePlayersView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyJDBCExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlayerLoginController (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlayerLoginController (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlayerLoginController (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlayerLoginController (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlayerLoginController (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlayerLoginController (6).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlayerLoginController (7).executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlayerLoginController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TimeConfigView.executor&quot;: &quot;Run&quot;,
+    &quot;Application.java_client.admin.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hw4ll/Desktop/2025-9322-team04_finproject_java/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/compilations" />
+      <recent name="C:\Users\doria\IdeaProjects\2025-9322-team04_finproject_java\src\main\java\compilations" />
+      <recent name="C:\Users\doria\IdeaProjects\2025-9322-team04_finproject_java\src\main\java\CORBA_IDLs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\doria\IdeaProjects\2025-9322-team04_finproject_java\src\main\java\compilations" />
+      <recent name="C:\Users\doria\IdeaProjects\2025-9322-team04_finproject_java\src\main\java\CORBA_IDLs" />
+      <recent name="C:\Users\doria\IdeaProjects\2025-9322-team04_finproject_java\src\main\java" />
+      <recent name="C:\Users\doria\IdeaProjects\2025-9322-team04_finproject_java\src\main\java\CORBA_IDLs\compilations" />
+      <recent name="C:\Users\doria\IdeaProjects\2025-9322-team04_finproject_java\src\main\java\Server_Java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="compilations" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PlayerLoginController (1)">
+    <configuration name="PlayerLoginController (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client_Java.player.controller.PlayerLoginController" />
+      <module name="2025-9322-team04_finproject_java" />
+      <option name="PROGRAM_PARAMETERS" value="-ORBInitRef NameService=corbaloc::localhost:4321/NameService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client_Java.player.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerLoginController (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client_Java.player.controller.PlayerLoginController" />
+      <module name="2025-9322-team04_finproject_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client_Java.player.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerLoginController (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client_Java.player.controller.PlayerLoginController" />
+      <module name="2025-9322-team04_finproject_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client_Java.player.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerLoginController (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client_Java.player.controller.PlayerLoginController" />
+      <module name="2025-9322-team04_finproject_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client_Java.player.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerLoginController (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client_Java.player.controller.PlayerLoginController" />
+      <module name="2025-9322-team04_finproject_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client_Java.player.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerLoginController (7)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client_Java.player.controller.PlayerLoginController" />
+      <module name="2025-9322-team04_finproject_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client_Java.player.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerLoginController" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client_Java.player.controller.PlayerLoginController" />
+      <module name="2025-9322-team04_finproject_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client_Java.player.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="Server_Java.Server" />
+      <module name="2025-9322-team04_finproject_java" />
+      <option name="PROGRAM_PARAMETERS" value="-ORBInitRef NameService=corbaloc::localhost:4321/NameService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server_Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PlayerLoginController (1)" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.PlayerLoginController" />
+      <item itemvalue="Application.PlayerLoginController (5)" />
+      <item itemvalue="Application.PlayerLoginController (4)" />
+      <item itemvalue="Application.PlayerLoginController (6)" />
+      <item itemvalue="Application.PlayerLoginController (7)" />
+      <item itemvalue="Application.PlayerLoginController (3)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PlayerLoginController (7)" />
+        <item itemvalue="Application.PlayerLoginController (6)" />
+        <item itemvalue="Application.PlayerLoginController (5)" />
+        <item itemvalue="Application.PlayerLoginController (4)" />
+        <item itemvalue="Application.PlayerLoginController (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cc41d1c-ff36-479d-929e-6d464edad10a" name="Changes" comment="" />
+      <created>1745608520063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745608520063</updated>
+      <workItem from="1747102832298" duration="5282000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added GameService.idl">
+      <option name="closed" value="true" />
+      <created>1745776548242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745776548242</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Moved/created JDBC structure to other main directory">
+      <option name="closed" value="true" />
+      <created>1746034175899</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746034175899</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Removed main and maintester class">
+      <option name="closed" value="true" />
+      <created>1746187452394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746187452394</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added chooseGameMVC">
+      <option name="closed" value="true" />
+      <created>1746198576978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746198576978</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added read functionality(SQL) and MVC for ChooseGameMVC. &#10;Connected ChooseGame frame and MVC to dashboard, main and TimeConfigView">
+      <option name="closed" value="true" />
+      <created>1746210164735</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746210164735</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added tentative code for time config">
+      <option name="closed" value="true" />
+      <created>1746251586932</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746251586932</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Initial Update">
+      <option name="closed" value="true" />
+      <created>1746674350398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746674350398</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed &quot;bugs&quot;">
+      <option name="closed" value="true" />
+      <created>1746675457970</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746675457970</updated>
+    </task>
+    <task id="LOCAL-00009" summary="initial commit for GameHistory">
+      <option name="closed" value="true" />
+      <created>1746929486859</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746929486859</updated>
+    </task>
+    <task id="LOCAL-00010" summary="FIXED GAME HISTORY">
+      <option name="closed" value="true" />
+      <created>1746945860596</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746945860597</updated>
+    </task>
+    <task id="LOCAL-00011" summary="FIXED GAME HISTORY">
+      <option name="closed" value="true" />
+      <created>1746945978318</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746945978318</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated GameService.idl">
+      <option name="closed" value="true" />
+      <created>1746952987791</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746952987791</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated WaitingRoomMVC">
+      <option name="closed" value="true" />
+      <created>1746953020788</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746953020788</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated Server">
+      <option name="closed" value="true" />
+      <created>1746953054909</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746953054910</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated ManagePlayersController">
+      <option name="closed" value="true" />
+      <created>1747051304199</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747051304199</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Comment out initializeSampleData()">
+      <option name="closed" value="true" />
+      <created>1747051418120</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1747051418120</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixed searchPlayerAccounts method and removed email as requirement for creating new player">
+      <option name="closed" value="true" />
+      <created>1747051567807</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1747051567807</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Updated ManagePlayersController">
+      <option name="closed" value="true" />
+      <created>1747202823907</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1747202823907</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Removed wins as part of updatable info">
+      <option name="closed" value="true" />
+      <created>1747214572496</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1747214572496</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Debugged AddPlayerController">
+      <option name="closed" value="true" />
+      <created>1747264672015</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1747264672015</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Pushed uncompiled files for GameService.idl">
+      <option name="closed" value="true" />
+      <created>1747385716249</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1747385716249</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Debugged LeaderboardServiceDAO in player">
+      <option name="closed" value="true" />
+      <created>1747392506064</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1747392506064</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fixed databasemanager">
+      <option name="closed" value="true" />
+      <created>1747394787951</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1747394787951</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added/made changes to logic in TimeConfiguration getters">
+      <option name="closed" value="true" />
+      <created>1747405056744</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1747405056745</updated>
+    </task>
+    <task id="LOCAL-00025" summary="removed server view">
+      <option name="closed" value="true" />
+      <created>1747476875209</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1747476875209</updated>
+    </task>
+    <task id="LOCAL-00026" summary="updated idl">
+      <option name="closed" value="true" />
+      <created>1747506155220</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1747506155220</updated>
+    </task>
+    <task id="LOCAL-00027" summary="new logic for python">
+      <option name="closed" value="true" />
+      <created>1747519837728</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1747519837728</updated>
+    </task>
+    <task id="LOCAL-00028" summary="some logic for game proper">
+      <option name="closed" value="true" />
+      <created>1747537546620</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1747537546620</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added DAO functionalities">
+      <option name="closed" value="true" />
+      <created>1747554815402</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1747554815402</updated>
+    </task>
+    <task id="LOCAL-00030" summary="added DAO functionalities">
+      <option name="closed" value="true" />
+      <created>1747584947454</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1747584947454</updated>
+    </task>
+    <task id="LOCAL-00031" summary="あ">
+      <option name="closed" value="true" />
+      <created>1747584992953</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1747584992953</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added server logs on AdminService servant">
+      <option name="closed" value="true" />
+      <created>1747972163355</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1747972163355</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added server logs on LoginService servant">
+      <option name="closed" value="true" />
+      <created>1747972441136</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1747972441136</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Added and implemented config.properties on Server and Admin side">
+      <option name="closed" value="true" />
+      <created>1748011029370</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1748011029370</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Newly compiled IDLs">
+      <option name="closed" value="true" />
+      <created>1748014712626</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1748014712626</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Implemented auto-logout on admin side">
+      <option name="closed" value="true" />
+      <created>1748020349474</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1748020349474</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Implemented auto-logout on admin side [fully functional]">
+      <option name="closed" value="true" />
+      <created>1748020904498</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1748020904498</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Fixed minor IDL issue for getGameHistory method">
+      <option name="closed" value="true" />
+      <created>1748075298513</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1748075298513</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Implemented forced-logout function on player side">
+      <option name="closed" value="true" />
+      <created>1748136407275</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1748136407276</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Implemented config and server logs on player side">
+      <option name="closed" value="true" />
+      <created>1748138621310</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1748138621310</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Minor change in client view classes">
+      <option name="closed" value="true" />
+      <created>1748145710286</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1748145710286</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Changed GameID generation from UUID to custom [not yet stored on sql]">
+      <option name="closed" value="true" />
+      <created>1748146500281</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1748146500281</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Registers game on database [no winner yet]">
+      <option name="closed" value="true" />
+      <created>1748151569502</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1748151569502</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Resolved issues with singleton GameManager lifecycle">
+      <option name="closed" value="true" />
+      <created>1748494856380</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1748494856380</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Cleaned, refactored, debugged the java project">
+      <option name="closed" value="true" />
+      <created>1748504075873</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1748504075873</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Debugged AddPlayerController" />
+    <MESSAGE value="Pushed uncompiled files for GameService.idl" />
+    <MESSAGE value="Debugged LeaderboardServiceDAO in player" />
+    <MESSAGE value="fixed databasemanager" />
+    <MESSAGE value="added/made changes to logic in TimeConfiguration getters" />
+    <MESSAGE value="removed server view" />
+    <MESSAGE value="updated idl" />
+    <MESSAGE value="new logic for python" />
+    <MESSAGE value="some logic for game proper" />
+    <MESSAGE value="added DAO functionalities" />
+    <MESSAGE value="あ" />
+    <MESSAGE value="Added server logs on AdminService servant" />
+    <MESSAGE value="Added server logs on LoginService servant" />
+    <MESSAGE value="Added and implemented config.properties on Server and Admin side" />
+    <MESSAGE value="Newly compiled IDLs" />
+    <MESSAGE value="Implemented auto-logout on admin side" />
+    <MESSAGE value="Implemented auto-logout on admin side [fully functional]" />
+    <MESSAGE value="Fixed minor IDL issue for getGameHistory method" />
+    <MESSAGE value="Implemented forced-logout function on player side" />
+    <MESSAGE value="Implemented config and server logs on player side" />
+    <MESSAGE value="Minor change in client view classes" />
+    <MESSAGE value="Changed GameID generation from UUID to custom [not yet stored on sql]" />
+    <MESSAGE value="Registers game on database [no winner yet]" />
+    <MESSAGE value="Resolved issues with singleton GameManager lifecycle" />
+    <MESSAGE value="Cleaned, refactored, debugged the java project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned, refactored, debugged the java project" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/2025_9322_team04_finproject_java$Server.ic" NAME="Server Coverage Results" MODIFIED="1747427568284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Server_Java.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/2025_9322_team04_finproject_java$PlayerLoginController.ic" NAME="PlayerLoginController Coverage Results" MODIFIED="1747387187531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Client_Java.player.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/2025_9322_team04_finproject_java$PlayerLoginController__2_.ic" NAME="PlayerLoginController (2) Coverage Results" MODIFIED="1747387269412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Client_Java.player.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/2025_9322_team04_finproject_java$PlayerLoginController__1_.ic" NAME="PlayerLoginController (1) Coverage Results" MODIFIED="1747390339635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Client_Java.player.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/2025_9322_team04_finproject_java$Main.ic" NAME="Main Coverage Results" MODIFIED="1746207592484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>java_client.player.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/2025_9322_team04_finproject_java$PlayerLoginController__3_.ic" NAME="PlayerLoginController (3) Coverage Results" MODIFIED="1747389666349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Client_Java.player.controller.*</FILTER>
+    </SUITE>
+  </component>
+</project>

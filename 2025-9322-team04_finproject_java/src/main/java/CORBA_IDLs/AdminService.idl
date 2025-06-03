@@ -1,0 +1,45 @@
+module compilations {
+    exception PlayerAlreadyExistsException {};
+    exception PlayerNotFoundException {};
+
+    struct PlayerAccount {
+        long playerId;
+        string username;
+        string password;
+        short gamesWon;
+        boolean loggedIn;
+    };
+
+    struct GameConfiguration {
+        short waitTime;
+        short roundDuration;
+    };
+
+    struct GameSessionObject {
+        string gameId;
+        string timeCreated;
+        string status;
+    };
+
+    typedef sequence<PlayerAccount> PlayerAccountSeq;
+    typedef sequence<GameSessionObject> GameSessionSequence;
+
+    interface AdminService {
+        void createPlayerAccount(in string username, in string password)
+            raises (PlayerAlreadyExistsException);
+
+        void removePlayerAccount(in string username)
+            raises (PlayerNotFoundException);
+
+        void updatePlayerCredentials(in string currentUsername, in string newUsername, in string newPassword)
+            raises (PlayerNotFoundException, PlayerAlreadyExistsException);
+
+        PlayerAccountSeq searchPlayerAccounts(in string keyword);
+
+        void updateGameWaitTime(in short seconds);
+        void updateRoundDuration(in short seconds);
+        short getJoinTimeout();
+        short getRoundDuration();
+        GameSessionSequence getGameHistory();
+    };
+};
