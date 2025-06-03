@@ -1,0 +1,13 @@
+module compilations {
+    struct PlayerScore {
+        string username;
+        short gamesWon;
+    };
+
+    typedef sequence<PlayerScore> PlayerScoreSeq;
+
+    interface LeaderboardService {
+        PlayerScoreSeq getTopPlayers();
+        void recordPlayerWin(in string username);
+    };
+};

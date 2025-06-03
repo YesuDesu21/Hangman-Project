@@ -1,0 +1,21 @@
+module compilations {
+    exception InvalidCredentialsException {};
+    exception UserAlreadyLoggedInException {};
+
+    struct LoginResult {
+        boolean success;
+        boolean forcedLogout;
+        string sessionId;
+    };
+
+    interface LoginService {
+        LoginResult loginPlayer(in string username, in string password)
+            raises (InvalidCredentialsException, UserAlreadyLoggedInException);
+        LoginResult loginAdmin(in string username, in string password)
+            raises (InvalidCredentialsException, UserAlreadyLoggedInException);
+        LoginResult forceLoginPlayer(in string username, in string password, in string table)
+            raises (InvalidCredentialsException);
+        void logoutPlayer(in string sessionId);
+        boolean isSessionActive(in string sessionId);
+    };
+};

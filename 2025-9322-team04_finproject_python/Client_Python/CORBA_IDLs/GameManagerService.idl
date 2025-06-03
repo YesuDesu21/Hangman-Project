@@ -1,0 +1,31 @@
+module compilations {
+    struct GameSession {
+        string gameId;
+        string timeCreated;
+        string word;
+        sequence<string> playerUsernames;
+        string status;
+        sequence<string> players;
+    };
+
+    typedef sequence<GameSession> GameSessionSeq;
+
+    exception GameNotFoundException {
+        string message;
+    };
+     struct GameStatus {//new
+            string gameId;
+            string status;
+        };
+
+    typedef sequence<GameStatus> GameStatusMap;//new
+
+    interface GameManagerService {
+        string joinOrCreateGameSession(in string username);
+        GameSessionSeq listActiveGameSessions();
+          //NEW UPDATE NG IDL NATIN -jas
+        GameStatusMap getGameStatus()
+        raises (GameNotFoundException);
+    };
+
+};

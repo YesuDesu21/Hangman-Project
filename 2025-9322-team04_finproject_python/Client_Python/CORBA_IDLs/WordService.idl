@@ -1,0 +1,13 @@
+module compilations {
+    interface WordService {
+        exception GameNotFoundException {};
+        string getNewWord(in string gameId);
+        void markWordAsUsed(in string word, in string gameId);
+        string getCurrentWord(in string gameId);
+        void clearCurrentWord(in string gameId);
+
+        //NEW METHOD BELOW-JAS
+        string getRoundWord(in string gameid, in string roundid)
+        raises (GameNotFoundException);
+    };
+};

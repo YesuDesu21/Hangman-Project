@@ -1,0 +1,89 @@
+module compilations {
+    exception NoOpponentFoundException {};
+    exception InvalidGuessException {};
+    exception GameNotFoundException {};
+
+    struct WordMaskInfo {
+        string maskedWord;
+        string actualWord;
+        short remainingGuesses;
+        string gameId;
+    };
+
+    typedef sequence<string> StringSequence;
+
+    struct PlayerScore {
+        string username;
+        short gamesWon;
+    };
+
+    typedef sequence<PlayerScore> GamePlayerScoreSequence;
+
+    interface GameService {
+        void requestToJoinGame(in string username)
+            raises (NoOpponentFoundException);
+
+        WordMaskInfo getCurrentWordMask(in string username)
+            raises (GameNotFoundException);
+
+        void submitLetterGuess(in string username, in char letter)
+            raises (InvalidGuessException, GameNotFoundException);
+
+        short getRemainingGuesses(in string username)
+            raises (GameNotFoundException);
+
+        string getGameProgressStatus(in string username)
+            raises (GameNotFoundException);
+
+        void setPlayerDone(in string username, in short round, in boolean guessedCorrectly)
+            raises (GameNotFoundException);
+
+        short getCurrentPlayerCount();
+
+        StringSequence getAllPlayers()
+            raises (GameNotFoundException);
+
+        boolean areAllPlayersDone(in string username, in short round)
+            raises (GameNotFoundException);
+
+        boolean advanceToNextRoundIfReady(in string username, in short round)
+            raises (GameNotFoundException);
+
+        GamePlayerScoreSequence getAllPlayerScores();
+
+        short getCurrentRound(in string gameId)
+            raises (GameNotFoundException);
+
+        boolean isGameOver();
+
+        string getWinner();
+
+        string getScoreSummary();
+
+        //NEW UPDATE NG IDL NATIN -jas
+
+         void createGameSession();
+
+         void createGameDetails()
+         raises (GameNotFoundException) ;
+
+         void createRound(in string gameId)
+         raises (GameNotFoundException);
+
+         void updateGame(in string status)
+         raises (GameNotFoundException);
+
+         void updateRound(in string status)
+         raises (GameNotFoundException);
+
+         string readRoundWord()
+         raises (GameNotFoundException);
+
+         void deleteGameSession()
+         raises (GameNotFoundException);
+
+         string getRoundId(in string gameId)
+         raises (GameNotFoundException);
+
+    };
+};
