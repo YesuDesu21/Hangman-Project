@@ -14,6 +14,7 @@ The parts I worked on:
 5. LoginMCM (Main-Controller-Model)
 6. HomepageMCM
 7. WaitingRoomMCM
+8. //MCM - Main, Controller, Model
 
 OTHERS
 1. Helped debug code
